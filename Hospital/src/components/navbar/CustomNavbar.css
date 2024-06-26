@@ -1,0 +1,21 @@
+.custom-navbar {
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.navbar-heading {
+  font-weight: bold;
+  font-size: 26px !important;
+}
+.logo-text {
+  color: #007bff;
+}
+
+.nav-link {
+  color: #007bff !important;
+  transition: transform 0.4s;
+}
+.nav-link:hover {
+  transform: translateY(-3px);
+}

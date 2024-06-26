@@ -1,0 +1,37 @@
+.doctor-page-container {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.schedule-list {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+  gap: 20px;
+}
+
+.schedule-item {
+  background-color: #fff;
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-date {
+  font-size: 16px;
+
+  font-weight: bold;
+}

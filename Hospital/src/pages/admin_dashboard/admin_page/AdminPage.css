@@ -1,0 +1,55 @@
+.admin-page {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #007bff;
+  padding: 20px;
+  color: white;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-icon {
+  font-size: 60px;
+}
+
+.admin-name {
+  margin-top: 10px;
+}
+
+.activity-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 70px;
+}
+
+.activity-list li {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.activity-list li:hover {
+  transform: translateY(-5px);
+}
+
+.activity-list li {
+  cursor: pointer;
+  color: #ffff !important;
+  transition: transform 0.4s;
+}
+
+.activity-list li:last-child {
+  margin-top: auto;
+  margin-bottom: 100px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
